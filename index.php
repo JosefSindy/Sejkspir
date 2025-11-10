@@ -1,50 +1,26 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sejkspir</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-
-    <div class="menu">
-        <div class="menu__logo">
-            <img src="" alt="Logo">
-            <h2>Prodej shaků</h2>
-        </div>
-        <div class="menu__text">
-            <a href="onas.php"><h2>O nás</h2></a>
-            <a href="nabidka.php"><h2>Nabídka</h2></a>
-            <a href="kontakt.php"><h2>Kontakt</h2></a>
-            <a href="#"><h2>Nabídka na míru</h2></a>
-        </div>
-        <div class="menu__search">
-             <input class="search" type="text" placeholder="Vyhledej Shake..."> 🔎
-        </div>
-    </div>
-    <div class="hero">
+<?php include "includes/menu.php" ?>
+    
+<div class="hero">
         <div class="hero__text">
             <h1>Doporučené Shaky</h1>
         </div>
-        <div class="hero__products">
+<div class="hero__products">
             
-            <div class="hero__products__img1">
-                <img src="" alt="Obrazek Shaku1">
-            </div>
-            <div class="hero__products__text1">
-                <p>Popis Shaku</p>
-            </div>
-
-        </div>
-
-        
+    <div class="hero__product">
+        <img src="images/cokoladovyshake.png" alt="Čokoládový Shake">
+        <p>Krémový čokoládový shake s proteinem a mandlovým mlékem.</p>
     </div>
+  <div class="hero__product">
+        <img src="images/vanilkovyshake.png" alt="Vanilkový Shake">
+        <p>Vanilkový shake s ovsem a nízkým obsahem cukru.</p>
+  </div>
+  <div class="hero__product">
+        <img src="images/Ovocnyshake.png" alt="Ovocný Shake">
+        <p>Osvěžující ovocná kombinace s lesními plody.</p>
+  </div>
 
-<footer>
-  <p>© Šejkspír, s. r. o.</p>
-</footer>
+</div>
 
+</div>
 
-</body>
-</html>
+<?php include "includes/footer.php" ?>
