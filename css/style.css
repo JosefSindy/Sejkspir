@@ -387,7 +387,7 @@ footer {
 .contact__content {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 100px;
   flex-wrap: wrap;
   margin-bottom: 60px;
 }
@@ -746,7 +746,6 @@ footer {
   right: -10px;
 }
 
-/* Košík styl */
 .cart-content {
   max-width: 600px;
 }
@@ -811,34 +810,131 @@ footer {
   background: #ff3d00;
 }
 
-.hero__button {
-  text-align: center;
-  margin-top: 40px;
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0 35px;
 }
 
-.show-more-btn {
-  display: inline-block;
+.tab-btn {
+  background: #fff;
+  border: 2px solid #ff8c00;
+  color: #ff8c00;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab-btn:hover {
+  background: #ff8c00;
+  color: white;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, #ff8c00, #ff3d00);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.hero-banner {
+  background: url('hero-bg.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
   background: linear-gradient(135deg, #ff8c00, #ff3d00);
   color: #fff;
   padding: 14px 34px;
-  border-radius: 35px;
-  font-size: 1.1em;
-  font-weight: bold;
+  border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
-  animation: pulse 2.5s infinite;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-.show-more-btn:hover {
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+.cta-btn:hover {
   background: linear-gradient(135deg, #ff9c1a, #ff4d00);
+  transform: translateY(-3px);
 }
 
-/* pulzující animace */
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(255, 141, 0, 0.6); }
-  70% { box-shadow: 0 0 0 12px rgba(255, 141, 0, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 141, 0, 0); }
+.benefits {
+  text-align: center;
+  padding: 70px 20px;
+  background: #fff8f0;
+}
+
+.benefit-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.benefit-item {
+  max-width: 250px;
+}
+
+.benefit-item img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.reviews {
+  padding: 70px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.review-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.review {
+  max-width: 300px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  font-style: italic;
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  color: #ff8c00;
+  font-weight: bold;
 }

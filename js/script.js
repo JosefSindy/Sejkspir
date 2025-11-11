@@ -1,39 +1,165 @@
 const shakes = {
-  choco: {
-    title: "Čokoládový Shake",
-    desc: "Sladká klasika s kakaem, banánem a mandlovým mlékem.",
-    ingredients: "Banán, kakao, mandlové mléko, oves, protein, med",
-    calories: "220 kcal / 100 ml",
-    energy: "920 kJ",
-    priceSmall: "65 Kč",
-    priceLarge: "85 Kč"
+  sonet: {
+    title: "Sonet o mangu",
+    desc: "Sladká exotika, co tě přenese na tropický ostrov.",
+    ingredients: "Mango, kokosové mléko, ananas",
+    calories: "210 kcal / 100 ml",
+    energy: "880 kJ",
+    priceSmall: "59 Kč",
+    priceLarge: "89 Kč"
   },
-  vanilla: {
-    title: "Vanilkový Shake",
-    desc: "Jemná chuť vanilky s ovsem a kapkou medu.",
-    ingredients: "Vanilkový protein, oves, mléko, med, špetka skořice",
-    calories: "180 kcal / 100 ml",
-    energy: "755 kJ",
-    priceSmall: "60 Kč",
-    priceLarge: "80 Kč"
+  ruzova: {
+    title: "Růžová Julie",
+    desc: "Romantický mix růží a bobulí – jemný, osvěžující a voňavý.",
+    ingredients: "Jahody, maliny, růžová voda, mandlové mléko",
+    calories: "170 kcal / 100 ml",
+    energy: "710 kJ",
+    priceSmall: "59 Kč",
+    priceLarge: "89 Kč"
   },
-  fruit: {
-    title: "Ovocný Shake",
-    desc: "Osvěžující kombinace lesních plodů a jogurtu.",
-    ingredients: "Jahody, borůvky, jogurt, med, chia semínka",
-    calories: "160 kcal / 100 ml",
-    energy: "670 kJ",
-    priceSmall: "55 Kč",
-    priceLarge: "75 Kč"
-  },
-  coffee: {
-    title: "Kávový Shake",
-    desc: "Energie z kávy, bílkovin a kokosového mléka v jednom.",
-    ingredients: "Espresso, kokosové mléko, protein, med, led",
+  zeleny: {
+    title: "Zelený princ",
+    desc: "Zdravý zelený elixír plný energie a vitamínů.",
+    ingredients: "Špenát, banán, jablko, kiwi, limetka",
     calories: "190 kcal / 100 ml",
     energy: "800 kJ",
-    priceSmall: "65 Kč",
+    priceSmall: "56 Kč",
     priceLarge: "85 Kč"
+  },
+  letni: {
+    title: "Letní sen",
+    desc: "Ovocná exploze, která chutná jako léto v každém doušku.",
+    ingredients: "Broskev, marakuja, pomerančový džus",
+    calories: "160 kcal / 100 ml",
+    energy: "670 kJ",
+    priceSmall: "59 Kč",
+    priceLarge: "89 Kč"
+  },
+  tropic: {
+    title: "Tropická bouře",
+    desc: "Krémový a výživný tropický mix s chia sílou.",
+    ingredients: "Mango, banán, kokos, ananas, chia",
+    calories: "260 kcal / 100 ml",
+    energy: "1090 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "95 Kč"
+  },
+  hamlet: {
+    title: "Hamletův hněv",
+    desc: "Intenzivní a sytý shake pro skutečné hrdiny.",
+    ingredients: "Čokoláda, arašídové máslo, protein, ovesné mléko",
+    calories: "410 kcal / 100 ml",
+    energy: "1720 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "105 Kč"
+  },
+  macbeth: {
+    title: "Macbeth Mass",
+    desc: "Sladký a silný – ideální po tréninku.",
+    ingredients: "Banán, datle, vanilkový protein, skořice",
+    calories: "350 kcal / 100 ml",
+    energy: "1470 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "105 Kč"
+  },
+  othello: {
+    title: "Othellův ořech",
+    desc: "Krémová čokoládovo-oříšková harmonie.",
+    ingredients: "Lískový ořech, kakao, protein, rýžové mléko",
+    calories: "380 kcal / 100 ml",
+    energy: "1590 kJ",
+    priceSmall: "75 Kč",
+    priceLarge: "109 Kč"
+  },
+  romeo: {
+    title: "Romeovo ráno",
+    desc: "Sladké probuzení s chutí prvního políbení.",
+    ingredients: "Jahoda, vanilka, řecký jogurt, med",
+    calories: "290 kcal / 100 ml",
+    energy: "1210 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "99 Kč"
+  },
+  gain: {
+    title: "Shakes-gain",
+    desc: "Dezertní proteinová bomba, co tě nakopne i potěší.",
+    ingredients: "Cookies & cream protein, mandlové mléko, banán",
+    calories: "360 kcal / 100 ml",
+    energy: "1500 kJ",
+    priceSmall: "75 Kč",
+    priceLarge: "109 Kč"
+  },
+  sen: {
+    title: "Sen noci čokoládové",
+    desc: "Temně čokoládový sen s jemným dotekem kokosu.",
+    ingredients: "Čokoláda, smetana, kokos",
+    calories: "420 kcal / 100 ml",
+    energy: "1760 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "95 Kč"
+  },
+  karamel: {
+    title: "Karamelová tragédie",
+    desc: "Hřejivý a jemný shake s přírodní sladkostí medu.",
+    ingredients: "Med, vanilka, mandle, mléko",
+    calories: "310 kcal / 100 ml",
+    energy: "1300 kJ",
+    priceSmall: "67 Kč",
+    priceLarge: "92 Kč"
+  },
+  med: {
+    title: "Medový sen",
+    desc: "Zdravý zelený elixír plný energie a vitamínů.",
+    ingredients: "Špenát, banán, jablko, kiwi, limetka",
+    calories: "190 kcal / 100 ml",
+    energy: "800 kJ",
+    priceSmall: "56 Kč",
+    priceLarge: "85 Kč"
+  },
+  laska: {
+    title: "Láska na první lok",
+    desc: "Krémový, sladký a nebezpečně návykový.",
+    ingredients: "Jahody, bílá čokoláda, smetana",
+    calories: "400 kcal / 100 ml",
+    energy: "1670 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "95 Kč"
+  },
+  vegie: {
+    title: "Veggie Verona",
+    desc: "Krémově svěží smoothie pro lehký restart těla.",
+    ingredients: "Špenát, avokádo, jablko, citron",
+    calories: "220 kcal / 100 ml",
+    energy: "920 kJ",
+    priceSmall: "59 Kč",
+    priceLarge: "89 Kč"
+  },
+  bio: {
+    title: "Bio Bard",
+    desc: "Antioxidační síla v lahodném fialovém kabátku.",
+    ingredients: "Borůvky, mandlové mléko, chia semínka",
+    calories: "240 kcal / 100 ml",
+    energy: "1000 kJ",
+    priceSmall: "67 Kč",
+    priceLarge: "92 Kč"
+  },
+  forest: {
+    title: "Forest Flow",
+    desc: "Osvěžující lesní chuť s jemnou sladkostí datlí.",
+    ingredients: "Lesní ovoce, kokosová voda, datle",
+    calories: "200 kcal / 100 ml",
+    energy: "840 kJ",
+    priceSmall: "59 Kč",
+    priceLarge: "89 Kč"
+  },
+  zen: {
+    title: "Zen Shake",
+    desc: "Klid v každém doušku – matcha energie a kokosová pohoda.",
+    ingredients: "Matcha, kokos, banán, mandlové mléko",
+    calories: "250 kcal / 100 ml",
+    energy: "1040 kJ",
+    priceSmall: "69 Kč",
+    priceLarge: "99 Kč"
   }
 };
 
@@ -146,3 +272,28 @@ document.getElementById("orderForm").addEventListener("submit", e => {
   e.target.reset();
   cartModal.style.display = "none";
 });
+// 🧭 Přepínání kategorií
+const tabs = document.querySelectorAll(".tab-btn");
+const items = document.querySelectorAll(".offer__item");
+
+tabs.forEach(tab => {
+  tab.addEventListener("click", () => {
+    // přepne aktivní tlačítko
+    tabs.forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+
+    const category = tab.dataset.category;
+    items.forEach(item => {
+      if (item.dataset.category === category) {
+        item.style.display = "block";
+        item.style.opacity = "1";
+      } else {
+        item.style.display = "none";
+        item.style.opacity = "0";
+      }
+    });
+  });
+});
+
+// výchozí kategorie – ovocné
+document.querySelector('.tab-btn[data-category="ovocne"]').click();
