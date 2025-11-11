@@ -4,6 +4,7 @@
         <div class="hero__text">
             <h1>Doporučené Shaky</h1>
         </div>
+
 <div class="hero__products">
             
     <div class="hero__product">
@@ -19,8 +20,16 @@
         <p>Osvěžující ovocná kombinace s lesními plody.</p>
   </div>
 
-</div>
+
 
 </div>
+
+ <div class="hero__button">
+    <a href="nabidka.php" class="show-more-btn">Zobrazit celou nabídku</a>
+  </div>
+
+</div>
+
+
 
 <?php include "includes/footer.php" ?>

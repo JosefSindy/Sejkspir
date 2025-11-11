@@ -35,7 +35,7 @@
     </div>
 
     <div class="contact__map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.564285697364!2d14.42076!3d50.08804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA1JzE3LjAiTiAxNMKwMjUnMTQuNyJF!5e0!3m2!1scs!2scz!4v0000000000000" 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1453.487746514279!2d12.921521117010235!3d49.4446551325116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDlCsDI2JzM2LjAiTiAxMsKwNTUnMjAuMyJF!5e0!3m2!1scs!2scz!4v1700" 
               width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </section>
