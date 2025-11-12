@@ -44,7 +44,7 @@ font-size: 10px;
 }
 .menu__text {
   display: flex;
-  gap: 25px;
+  gap: 40px;
 }
 
 .menu__text a {
