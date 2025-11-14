@@ -22,7 +22,7 @@
           <a href="#">🎥 TikTok</a>
         </div>
       </div>
-
+      
       <div class="contact__form">
         <h2>📬 Napište nám</h2>
         <form>

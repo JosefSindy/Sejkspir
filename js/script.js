@@ -5,8 +5,8 @@ const shakes = {
     ingredients: "Mango, kokosové mléko, ananas",
     calories: "210 kcal / 100 ml",
     energy: "880 kJ",
-    priceSmall: "59 Kč",
-    priceLarge: "89 Kč"
+    priceSmall: "59 ",
+    priceLarge: "89 "
   },
   ruzova: {
     title: "Růžová Julie",
@@ -207,8 +207,8 @@ document.querySelectorAll(".order-btn").forEach(btn => {
     const sizeModal = document.getElementById("sizeModal");
     const sizeOptions = document.getElementById("sizeOptions");
     sizeOptions.innerHTML = `
-      <button data-size="0.3" data-price="${currentShake.priceSmall}">0,3 l – ${currentShake.priceSmall} Kč</button>
-      <button data-size="0.5" data-price="${currentShake.priceLarge}">0,5 l – ${currentShake.priceLarge} Kč</button>
+      <button data-size="0.3" data-price="${currentShake.priceSmall}">0,3 l – ${currentShake.priceSmall} </button>
+      <button data-size="0.5" data-price="${currentShake.priceLarge}">0,5 l – ${currentShake.priceLarge} </button>
     `;
     sizeModal.style.display = "flex";
   });
