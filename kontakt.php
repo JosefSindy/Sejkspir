@@ -12,8 +12,8 @@
         <h2>📍 Kde nás najdete</h2>
         <p>Šejkspír, s. r. o.<br>
         Erbenova 184, Domažlice<br>
-        IČO: <br>
-        Tel.: <a href="tel:+420">+420</a><br>
+        IČO: 53440107<br>
+        Tel.: <a href="tel:+420702193508">+420 702 193 508</a><br>
         E-mail: <a href="mailto:sejkspir123@gmail.com">sejkspir123@gmail.com</a></p>
 
         <div class="socials">
